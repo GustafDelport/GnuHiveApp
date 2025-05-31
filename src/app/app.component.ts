@@ -8,7 +8,7 @@ import { NavigationComponent } from '../components/shared/navigation/navigation.
     styleUrl: './app.component.scss',
     standalone: true,
     imports: [
-      NavigationComponent //
+        NavigationComponent //
     ]
 })
 export class AppComponent {

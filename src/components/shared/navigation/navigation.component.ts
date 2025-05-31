@@ -14,6 +14,8 @@ import { RouterOutlet } from '@angular/router';
     standalone: true
 })
 export class NavigationComponent extends DestroyableComponent {
+    public navigationActive: boolean = false;
+
     constructor() {
         super();
     }
