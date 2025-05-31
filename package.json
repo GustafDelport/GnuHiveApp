@@ -4,6 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --ssl true --open",
+    "start:cert": "ng serve --ssl true --ssl-key app-cert/localhost.key --ssl-cert app-cert/localhost.crt --open",
+    "prettier": "prettier --config ./.prettierrc --write \"src/**/*{.ts,.js,.json,.css,.scss,.html}\"",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -21,6 +23,7 @@
     "@angular/platform-browser": "^18.2.0",
     "@angular/platform-browser-dynamic": "^18.2.0",
     "@angular/router": "^18.2.0",
+    "bootstrap": "^5.3.6",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"

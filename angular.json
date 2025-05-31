@@ -15,7 +15,7 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:application",
+          "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/gnu-hive-app",
             "index": "src/index.html",
@@ -28,10 +28,10 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap-grid.min.css",
               "src/styles.scss"
             ],
             "scripts": [],
-            "allowedCommonJsDependencies": ["lodash", "moment/moment", "fast-sha256"],
             "stylePreprocessorOptions": {
               "includePaths": [
                 "src/styles",

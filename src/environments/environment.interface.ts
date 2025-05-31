@@ -3,4 +3,3 @@ export interface Environment {
     API_BASE: string;
     MAX_IDLE_TIMEOUT_IN_MS: number;
 }
-
