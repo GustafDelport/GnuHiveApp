@@ -4,5 +4,11 @@ export const routesConfig = {
             route: '/home',
             endpoint: 'home'
         }
+    },
+    login: {
+        root: {
+            route: '/login',
+            endpoint: 'login'
+        }
     }
 };
