@@ -1,0 +1,24 @@
+@use 'color' as c;
+
+:host {
+    overflow: hidden;
+    display: block;
+    border-radius: 0.75rem;
+    border: 1px solid c.$pale-white;
+    background: c.$pale-white;
+    padding: 1.5rem;
+    box-shadow: none;
+    position: relative;
+
+    &.squared {
+        border-radius: 0;
+    }
+
+    &.squared-bottom-rounded {
+        border-radius: 0 0 0.75rem 0.75rem;
+    }
+
+    &.squared-top-rounded {
+        border-radius: 0.75rem 0.75rem 0 0;
+    }
+}

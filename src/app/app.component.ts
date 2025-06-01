@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { NavigationComponent } from '../components/shared/navigation/navigation.component';
 
 @Component({
@@ -11,6 +10,4 @@ import { NavigationComponent } from '../components/shared/navigation/navigation.
         NavigationComponent //
     ]
 })
-export class AppComponent {
-    title = 'GnuHiveApp';
-}
+export class AppComponent {}

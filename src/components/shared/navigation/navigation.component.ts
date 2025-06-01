@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { DestroyableComponent } from '../destroyable-component/destroyable-component';
 import { RouterOutlet } from '@angular/router';
 import { NavigationService } from '../../../services/navigation.service';
+import { CardComponent } from '../card/card.component';
+import { SideNavComponent } from './side-nav/side-nav.component';
 
 @Component({
     selector: 'app-navigation',
@@ -10,7 +12,8 @@ import { NavigationService } from '../../../services/navigation.service';
     styleUrl: './navigation.component.scss',
     imports: [
         CommonModule, //
-        RouterOutlet
+        RouterOutlet,
+        SideNavComponent
     ],
     standalone: true
 })

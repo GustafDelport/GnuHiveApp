@@ -1,8 +1,11 @@
 <ng-container *ngIf="navigationActive; else fallback">
-    <section>
-      Side Content
+    <section class="main-content-body">
+      <app-side-nav></app-side-nav>
+        <section class="main-content">
+            <router-outlet></router-outlet>
+        </section>
     </section>
-    <router-outlet></router-outlet>
+  <section class="main-content-footer">Footer</section>
 </ng-container>
 <ng-template #fallback>
     <router-outlet></router-outlet>
