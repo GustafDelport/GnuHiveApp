@@ -1,0 +1,64 @@
+@use 'color' as c;
+
+@mixin s-medium-darkgray() {
+    font-family: Roboto, serif;
+    color: c.$dark-gray;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@mixin m-medium-darkgray() {
+    font-family: Roboto, serif;
+    color: c.$dark-gray;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@mixin l-medium-darkgray() {
+    font-family: Roboto, serif;
+    color: c.$dark-gray;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+@mixin s-medium-darkgray() {
+    font-family: Roboto, serif;
+    color: c.$dark-gray;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@mixin m-medium-darkgray() {
+    font-family: Roboto, serif;
+    color: c.$dark-gray;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+@mixin l-medium-darkgray() {
+    font-family: Roboto, serif;
+    color: c.$dark-gray;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+@mixin s-bold-darkgray() {
+    font-family: Roboto, serif;
+    color: c.$dark-gray;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+@mixin m-bold-darkgray() {
+    font-family: Roboto, serif;
+    color: c.$dark-gray;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+@mixin l-bold-darkgray() {
+    font-family: Roboto, serif;
+    color: c.$dark-gray;
+    font-size: 2rem;
+    font-weight: 600;
+}

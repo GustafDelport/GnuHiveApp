@@ -8,4 +8,6 @@ import { CardComponent } from '../shared/card/card.component';
     imports: [CardComponent],
     standalone: true
 })
-export class HomeComponent {}
+export class HomeComponent {
+    public userName: string = 'Gustaf Delport';
+}

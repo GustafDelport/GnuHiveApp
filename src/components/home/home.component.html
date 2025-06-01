@@ -1,14 +1,17 @@
 <section class="home-container">
-  <section class="home-header">
-    <app-card></app-card>
-  </section>
-  <section class="home-content">
-    <app-card></app-card>
-    <app-card></app-card>
-    <app-card></app-card>
-    <app-card></app-card>
-  </section>
-  <section class="home-actions">
-    <app-card></app-card>
-  </section>
+    <section class="home-header">
+        <app-card class="header-card">
+            <span class="header-title">Hello, {{ userName }}</span>
+            <span class="header-subtitle">How are you feeling today?</span>
+        </app-card>
+    </section>
+    <section class="home-content">
+        <app-card></app-card>
+        <app-card></app-card>
+        <app-card></app-card>
+        <app-card></app-card>
+    </section>
+    <section class="home-actions">
+        <app-card></app-card>
+    </section>
 </section>

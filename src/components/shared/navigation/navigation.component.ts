@@ -13,7 +13,8 @@ import { SideNavComponent } from './side-nav/side-nav.component';
     imports: [
         CommonModule, //
         RouterOutlet,
-        SideNavComponent
+        SideNavComponent,
+        CardComponent
     ],
     standalone: true
 })
