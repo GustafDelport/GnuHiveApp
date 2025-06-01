@@ -1,20 +1,20 @@
 @use 'color' as c;
 
-@mixin s-medium-darkgray() {
+@mixin s-regular-darkgray() {
     font-family: Roboto, serif;
     color: c.$dark-gray;
     font-size: 1rem;
     font-weight: 400;
 }
 
-@mixin m-medium-darkgray() {
+@mixin m-regular-darkgray() {
     font-family: Roboto, serif;
     color: c.$dark-gray;
     font-size: 1.5rem;
     font-weight: 400;
 }
 
-@mixin l-medium-darkgray() {
+@mixin l-regular-darkgray() {
     font-family: Roboto, serif;
     color: c.$dark-gray;
     font-size: 2rem;
@@ -59,6 +59,69 @@
 @mixin l-bold-darkgray() {
     font-family: Roboto, serif;
     color: c.$dark-gray;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+@mixin s-regular-white() {
+    font-family: Roboto, serif;
+    color: c.$white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@mixin m-regular-white() {
+    font-family: Roboto, serif;
+    color: c.$white;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@mixin l-regular-white() {
+    font-family: Roboto, serif;
+    color: c.$white;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+@mixin s-medium-white() {
+    font-family: Roboto, serif;
+    color: c.$white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@mixin m-medium-white() {
+    font-family: Roboto, serif;
+    color: c.$white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+@mixin l-medium-white() {
+    font-family: Roboto, serif;
+    color: c.$white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+@mixin s-bold-white() {
+    font-family: Roboto, serif;
+    color: c.$white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+@mixin m-bold-white() {
+    font-family: Roboto, serif;
+    color: c.$white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+@mixin l-bold-white() {
+    font-family: Roboto, serif;
+    color: c.$white;
     font-size: 2rem;
     font-weight: 600;
 }
